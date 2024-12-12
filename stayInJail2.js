@@ -1,3 +1,3 @@
 function restart(){
-    window.location.href; "./start.html"
+    window.location.href= "./index.html"
 }
