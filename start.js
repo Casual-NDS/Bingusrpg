@@ -13,9 +13,9 @@ function stayInJail(){
     window.location.href = "./StayInJail.html"
 }
 
-function EscapeJail(){
+function escapeJail(){
     save();
-    window.location.href = "./EscapeJail.html"
+    window.location.href = "./escapeJail.html"
 }
 
 function load(){
