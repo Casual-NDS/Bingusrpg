@@ -22,7 +22,7 @@ function load(){
     // variableName = localStorage.getItem("variableName") ?? default;
     bingusPoints = Number(localStorage.getItem("bingusPoints")) ?? bingusPoints;
     weapon = localStorage.getItem("weapon") ?? "";
-    hasKnife = Boolean(localStorage.getItem("hasKnife")) ?? false;
+    hasKnife = Boolean(JSON.parse(localStorage.getItem("hasKnife"))) ?? false;
 }
 
 function save(){
