@@ -1,7 +1,7 @@
 function stayInJail2(){
     save();
-    window.location.href = "./stayInJail2.html"
+    window.location.href = "./StayInJail2.html"
 }
 function escapeJail(){
-    window.location.href = "./escapejail.html"
+    window.location.href = "./escapeJail.html"
 }
